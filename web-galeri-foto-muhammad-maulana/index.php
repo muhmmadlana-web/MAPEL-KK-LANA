@@ -70,7 +70,7 @@
       font-weight: bold;
       cursor: pointer;
       margin-top: 15px;
-      transition: background 0.3s;
+      transition: 0.3s;
     }
 
     .login-container input[type="submit"]:hover {

@@ -1,9 +1,11 @@
-<?php 
+<?php
+session_start();
 
-session_start(); 
+// hapus semua session
+session_unset();
+session_destroy();
 
-session_destroy(); 
-
-header("Location: index.php"); 
-
+// kembali ke halaman login utama
+header("Location : index.php");
+exit;
 ?>
