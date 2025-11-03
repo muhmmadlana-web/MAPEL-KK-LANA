@@ -16,7 +16,7 @@ if ($query->num_rows > 0) {
 
     // cek role
     if ($data['level_user'] == "admin" || $data['level_user'] == "maulana") {
-        header("Location: admin/admin.php"); // admin & maulana masuk ke halaman admin
+        header("Location: admin/d-admin.php"); // admin & maulana masuk ke halaman admin
         exit;
     } elseif ($data['level_user'] == "operator") {
         header("Location: operator/operator.php");
